@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.40.0 -->
+<interface>
+  <requires lib="gtk+" version="3.24"/>
+  <template class="TodoApplicationWindow" parent="GtkApplicationWindow">
+    <property name="can-focus">False</property>
+    <child>
+      <object class="GtkButton" id="add_new_item_btn">
+        <property name="label" translatable="yes">Add new item</property>
+        <property name="visible">True</property>
+        <property name="can-focus">True</property>
+        <property name="receives-default">True</property>
+      </object>
+    </child>
+  </template>
+</interface>
