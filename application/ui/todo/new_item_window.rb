@@ -51,6 +51,9 @@ module Todo
           item.priority = priority_combo_box.active_iter.get_value(0) if priority_combo_box.active_iter
           item.save!
           close
+
+          application_window = application.windows.find { |w| w.is_a? Todo::ApplicationWindow }
+          application_window.load_todo_items
         end
 
       end

@@ -1,0 +1,5 @@
+" current items
+/resources/items/*
+
+" windows meta
+/resources/ui/*.ui~
